@@ -22,6 +22,9 @@ export function updateUI() {
     
     const cardList = $('#card__list');
     cardList.innerHTML = cardListItems;
+
+    $('#remaining-task').innerText = `Remaining Tasks: ${tasks.length}` ;
+
     $('#card__input').value = '';
   
 }
