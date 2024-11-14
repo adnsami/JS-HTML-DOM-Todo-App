@@ -22,4 +22,6 @@ export function updateUI() {
     
     const cardList = $('#card__list');
     cardList.innerHTML = cardListItems;
+    $('#card__input').value = '';
+  
 }

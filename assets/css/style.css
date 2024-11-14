@@ -26,6 +26,7 @@ body {
     border-radius: 4px;
     width: max-content;
     padding: 16px;
+    margin: 0 auto;
 }
 
 .card__list {
